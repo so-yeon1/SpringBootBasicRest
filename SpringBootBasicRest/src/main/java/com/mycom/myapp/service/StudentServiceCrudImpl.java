@@ -62,9 +62,8 @@ public class StudentServiceCrudImpl implements StudentServiceCrud{
 			Optional<Student> optionalStudent = studentRepository.findById(id);
 
 			// ifPresentOrElse(값 존재할 경우, 값 존재안할 경우)
-			//
 			optionalStudent.ifPresentOrElse(
-					student -> { // 값 존재할 때
+					student -> { // 값 존재할 때  // entity -> dto
 						StudentDto studentDto = StudentDto.builder()
 								.id(student.getId())
 								.name(student.getName())

@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+// @Builder 사용시, @NoArgsConstructor + @AllArgsConstructor 함께 사용.
 @Data
 @Builder
 @NoArgsConstructor
