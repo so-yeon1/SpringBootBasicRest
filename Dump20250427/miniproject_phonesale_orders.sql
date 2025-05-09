@@ -1,0 +1,58 @@
+CREATE DATABASE  IF NOT EXISTS `miniproject_phonesale` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `miniproject_phonesale`;
+-- MySQL dump 10.13  Distrib 8.0.41, for Win64 (x86_64)
+--
+-- Host: localhost    Database: miniproject_phonesale
+-- ------------------------------------------------------
+-- Server version	8.0.41
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `orders`
+--
+
+DROP TABLE IF EXISTS `orders`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `orders` (
+  `order_id` int NOT NULL AUTO_INCREMENT,
+  `cust_id` int DEFAULT NULL,
+  `total_saleprice` int DEFAULT NULL,
+  `order_date` datetime DEFAULT NULL,
+  `state` varchar(45) NOT NULL,
+  PRIMARY KEY (`order_id`),
+  KEY `fk_cust_id_idx` (`cust_id`),
+  CONSTRAINT `fk_cust_id` FOREIGN KEY (`cust_id`) REFERENCES `customer` (`cust_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `orders`
+--
+
+LOCK TABLES `orders` WRITE;
+/*!40000 ALTER TABLE `orders` DISABLE KEYS */;
+INSERT INTO `orders` VALUES (1,5,4000000,'2025-03-03 17:00:00','구매확정'),(2,2,4100000,'2025-03-04 09:15:00','구매확정'),(3,10,2500000,'2025-03-05 09:45:00','구매확정'),(4,3,1400000,'2025-03-05 10:05:00','구매확정'),(5,7,1000000,'2025-03-06 10:30:00','구매확정'),(6,6,1900000,'2025-03-06 11:00:00','구매확정'),(7,18,3000000,'2025-03-06 11:30:00','구매확정'),(8,4,1400000,'2025-03-07 12:00:00','구매확정'),(9,14,2900001,'2025-03-07 12:30:00','구매확정'),(10,1,1500000,'2025-03-07 13:00:00','구매확정'),(11,11,2550000,'2025-03-07 13:30:00','구매확정'),(12,16,900000,'2025-03-07 14:00:00','구매확정'),(13,19,300000,'2025-03-07 14:30:00','구매확정'),(14,12,3300000,'2025-03-07 15:00:00','구매확정'),(15,13,4200000,'2025-03-07 15:30:00','주문완료'),(16,17,2500000,'2025-03-06 16:00:00','구매확정'),(17,8,3200000,'2025-03-06 16:30:00','구매확정');
+/*!40000 ALTER TABLE `orders` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2025-04-27  2:01:59

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>login.html</h1>
+	<!-- Ajax 요청 -->
+	<form action="/login" method="post">
+		<input type="text" name="username" id="username"><br>
+		<input type="text" name="password" id="password"><br>
+		
+	</form>
+	<button id="btnLogin">login</button>
+
+	<script>
+	
+		window.onload = function() {
+		    document.querySelector("#btnLogin").onclick = async function() {
+		        let urlParams = new URLSearchParams({
+		            username: document.querySelector("#username").value,
+		            password: document.querySelector("#password").value
+		        });
+	
+		        let fetchOption = {
+		            method: "POST",
+		            body: urlParams
+		        };
+	
+		        let response = await fetch("/login2", fetchOption);
+		        let data = await response.json();
+		        console.log(data);
+	
+		        if (data.result == "success") {
+		            // main page 이동
+		            window.location.href = "/main.html";
+		        } else {
+		            alert("로그인 실패");
+		        }
+		    }
+		}
+
+	
+	</script>
+
+</body>
+</html>

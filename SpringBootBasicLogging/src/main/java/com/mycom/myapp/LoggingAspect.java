@@ -10,6 +10,7 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
+import java.util.Arrays;
 
 // com.mycom.myapp.repository 의 모든 메소드가 호출될 때 기본 로그를 남기는 Aspect
 // repository 패키지의 메소드는 모두 login 한 상태에서만 호출 가능
@@ -22,7 +23,7 @@ public class LoggingAspect {
     // Session
     private final HttpSession session;
 
-    @Pointcut(value="execution( * com.mycom.myapp.repository.*.*(..) )") // excution()괄호 안쪽은 대상.
+    @Pointcut(value="execution( * com.mycom.myapp.controller.*.*(..) )") // excution()괄호 안쪽은 대상.
     private void logPointcut() {
 
     }

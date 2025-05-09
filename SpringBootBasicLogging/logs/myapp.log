@@ -1,0 +1,211 @@
+2025-05-01 13:48:25 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Starting SpringBootBasicLoggingApplication using Java 17.0.14 with PID 8056 (C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging\build\classes\java\main started by PC_1M in C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging)
+2025-05-01 13:48:25 [restartedMain] DEBUG c.m.m.SpringBootBasicLoggingApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 13:48:25 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 13:48:26 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 13:48:26 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-05-01 13:48:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 13:48:26 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 161 ms
+2025-05-01 13:48:26 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 13:48:26 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 13:48:26 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 13:48:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 13:48:26 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Started SpringBootBasicLoggingApplication in 0.353 seconds (process running for 405.635)
+2025-05-01 13:48:26 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 13:49:44 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-01 13:49:44 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-05-01 13:49:44 [http-nio-8080-exec-2] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 13:49:44 [http-nio-8080-exec-2] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 13:49:44 [http-nio-8080-exec-2] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:07:59 [http-nio-8080-exec-5] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 14:07:59 [http-nio-8080-exec-5] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 14:07:59 [http-nio-8080-exec-5] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:14:52 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-05-01 14:14:52 [Thread-7] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:14:52 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:14:52 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:14:52 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Starting SpringBootBasicLoggingApplication using Java 17.0.14 with PID 8056 (C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging\build\classes\java\main started by PC_1M in C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging)
+2025-05-01 14:14:52 [restartedMain] DEBUG c.m.m.SpringBootBasicLoggingApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:14:52 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:14:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:14:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2025-05-01 14:14:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:14:52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 191 ms
+2025-05-01 14:14:52 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:14:52 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:14:52 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:14:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:14:52 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Started SpringBootBasicLoggingApplication in 0.38 seconds (process running for 1992.2)
+2025-05-01 14:14:52 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:19:27 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:19:27 [Thread-11] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:19:27 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:19:27 [Thread-11] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:19:27 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Starting SpringBootBasicLoggingApplication using Java 17.0.14 with PID 8056 (C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging\build\classes\java\main started by PC_1M in C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging)
+2025-05-01 14:19:27 [restartedMain] DEBUG c.m.m.SpringBootBasicLoggingApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:19:27 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:19:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:19:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2025-05-01 14:19:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:19:27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 272 ms
+2025-05-01 14:19:27 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:19:27 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:19:28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:19:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:19:28 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Started SpringBootBasicLoggingApplication in 0.574 seconds (process running for 2267.471)
+2025-05-01 14:19:28 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:23:31 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-01 14:23:31 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-01 14:23:31 [http-nio-8080-exec-2] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 14:23:31 [http-nio-8080-exec-2] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 14:23:31 [http-nio-8080-exec-2] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:23:33 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:23:33 [Thread-15] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:23:33 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:23:33 [Thread-15] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:23:33 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Starting SpringBootBasicLoggingApplication using Java 17.0.14 with PID 8056 (C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging\build\classes\java\main started by PC_1M in C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging)
+2025-05-01 14:23:33 [restartedMain] DEBUG c.m.m.SpringBootBasicLoggingApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:23:33 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:23:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:23:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2025-05-01 14:23:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:23:33 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 163 ms
+2025-05-01 14:23:33 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:23:33 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:23:33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:23:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:23:33 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Started SpringBootBasicLoggingApplication in 0.453 seconds (process running for 2513.301)
+2025-05-01 14:23:33 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:28:16 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:28:17 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:28:17 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:28:20 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Starting SpringBootBasicLoggingApplication using Java 17.0.14 with PID 18500 (C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging\build\classes\java\main started by PC_1M in C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging)
+2025-05-01 14:28:20 [restartedMain] DEBUG c.m.m.SpringBootBasicLoggingApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:28:20 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:28:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-01 14:28:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-01 14:28:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:28:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2025-05-01 14:28:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:28:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 834 ms
+2025-05-01 14:28:22 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:28:22 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:28:23 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:28:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:28:23 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Started SpringBootBasicLoggingApplication in 2.79 seconds (process running for 3.293)
+2025-05-01 14:28:24 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-01 14:28:24 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-01 14:29:23 [http-nio-8080-exec-9] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 14:29:23 [http-nio-8080-exec-9] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 14:29:23 [http-nio-8080-exec-9] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:29:46 [http-nio-8080-exec-6] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 14:29:46 [http-nio-8080-exec-6] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 14:29:46 [http-nio-8080-exec-6] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:31:55 [http-nio-8080-exec-5] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 14:31:55 [http-nio-8080-exec-5] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 14:31:55 [http-nio-8080-exec-5] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:32:33 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:32:33 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:32:33 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:32:33 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:32:33 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Starting SpringBootBasicLoggingApplication using Java 17.0.14 with PID 18500 (C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging\build\classes\java\main started by PC_1M in C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging)
+2025-05-01 14:32:33 [restartedMain] DEBUG c.m.m.SpringBootBasicLoggingApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:32:33 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:32:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:32:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2025-05-01 14:32:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:32:33 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 181 ms
+2025-05-01 14:32:33 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:32:33 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:32:34 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:32:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:32:34 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Started SpringBootBasicLoggingApplication in 0.474 seconds (process running for 254.065)
+2025-05-01 14:32:34 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:32:40 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-01 14:32:40 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-01 14:32:51 [http-nio-8080-exec-4] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 14:32:51 [http-nio-8080-exec-4] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 14:32:51 [http-nio-8080-exec-4] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:32:51 [http-nio-8080-exec-4] INFO  com.mycom.myapp.LoggingAspect - User [ddd] 가 method : findAll 을 2025-05-01T14:32:51.660654300 에 호출했습니다.
+2025-05-01 14:33:07 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:33:07 [Thread-7] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:33:08 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:33:08 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:33:08 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Starting SpringBootBasicLoggingApplication using Java 17.0.14 with PID 18500 (C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging\build\classes\java\main started by PC_1M in C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging)
+2025-05-01 14:33:08 [restartedMain] DEBUG c.m.m.SpringBootBasicLoggingApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:33:08 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:33:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:33:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2025-05-01 14:33:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:33:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 175 ms
+2025-05-01 14:33:08 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:33:08 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:33:08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:33:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:33:08 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Started SpringBootBasicLoggingApplication in 0.448 seconds (process running for 288.447)
+2025-05-01 14:33:08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:34:20 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:34:20 [Thread-11] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:34:20 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:34:20 [Thread-11] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:34:20 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Starting SpringBootBasicLoggingApplication using Java 17.0.14 with PID 18500 (C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging\build\classes\java\main started by PC_1M in C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging)
+2025-05-01 14:34:20 [restartedMain] DEBUG c.m.m.SpringBootBasicLoggingApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:34:20 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:34:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:34:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2025-05-01 14:34:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:34:20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 158 ms
+2025-05-01 14:34:20 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:34:20 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:34:20 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:34:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:34:20 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Started SpringBootBasicLoggingApplication in 0.416 seconds (process running for 360.644)
+2025-05-01 14:34:20 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:34:22 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-01 14:34:22 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-01 14:34:30 [http-nio-8080-exec-2] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 14:34:30 [http-nio-8080-exec-2] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 14:34:30 [http-nio-8080-exec-2] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:34:30 [http-nio-8080-exec-2] INFO  com.mycom.myapp.LoggingAspect - User [dddd] 가 method : findAll 을 2025-05-01T14:34:30.197684800 에 호출했습니다.
+2025-05-01 14:34:48 [http-nio-8080-exec-4] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 14:34:48 [http-nio-8080-exec-4] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 14:34:48 [http-nio-8080-exec-4] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:34:48 [http-nio-8080-exec-4] INFO  com.mycom.myapp.LoggingAspect - User [aaa] 가 method : findAll 을 2025-05-01T14:34:48.524749900 에 호출했습니다.
+2025-05-01 14:37:51 [http-nio-8080-exec-10] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 14:37:51 [http-nio-8080-exec-10] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 14:37:51 [http-nio-8080-exec-10] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:37:51 [http-nio-8080-exec-10] INFO  com.mycom.myapp.LoggingAspect - User [bbbb] 가 method : findAll 을 2025-05-01T14:37:51.256864100 에 호출했습니다.
+2025-05-01 14:38:11 [http-nio-8080-exec-1] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 14:38:11 [http-nio-8080-exec-1] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 14:38:11 [http-nio-8080-exec-1] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:38:11 [http-nio-8080-exec-1] INFO  com.mycom.myapp.LoggingAspect - User [bbbb] 가 method : findAll 을 2025-05-01T14:38:11.346067700 에 호출했습니다.
+2025-05-01 14:38:32 [http-nio-8080-exec-6] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 14:38:32 [http-nio-8080-exec-6] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 14:38:32 [http-nio-8080-exec-6] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:38:32 [http-nio-8080-exec-6] INFO  com.mycom.myapp.LoggingAspect - User [sss] 가 method : findAll 을 2025-05-01T14:38:32.062081200 에 호출했습니다.
+2025-05-01 14:38:57 [http-nio-8080-exec-10] DEBUG c.m.m.c.StudentControllerCrud - listStudent() debug
+2025-05-01 14:38:57 [http-nio-8080-exec-10] INFO  c.m.m.c.StudentControllerCrud - listStudent() info
+2025-05-01 14:38:57 [http-nio-8080-exec-10] WARN  c.m.m.c.StudentControllerCrud - listStudent() warn
+2025-05-01 14:38:57 [http-nio-8080-exec-10] INFO  com.mycom.myapp.LoggingAspect - User [abb] 가 method : findAll 을 2025-05-01T14:38:57.490971700 에 호출했습니다.
+2025-05-01 14:58:34 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:58:34 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:58:34 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 19:03:19 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Starting SpringBootBasicLoggingApplication using Java 17.0.14 with PID 18668 (C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging\build\classes\java\main started by PC_1M in C:\UrecaSW\workspace_springBoot\SpringBootBasicLogging)
+2025-05-01 19:03:19 [restartedMain] DEBUG c.m.m.SpringBootBasicLoggingApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 19:03:19 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 19:03:19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-01 19:03:19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-01 19:03:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 19:03:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2025-05-01 19:03:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 19:03:20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 845 ms
+2025-05-01 19:03:21 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 19:03:21 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 19:03:22 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 19:03:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 19:03:22 [restartedMain] INFO  c.m.m.SpringBootBasicLoggingApplication - Started SpringBootBasicLoggingApplication in 2.657 seconds (process running for 3.123)
+2025-05-01 19:03:28 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-01 19:03:28 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-05-01 19:04:01 [http-nio-8080-exec-4] INFO  com.mycom.myapp.LoggingAspect - [CONTROLLER] 호출: login | args: [dd, dd, org.apache.catalina.session.StandardSessionFacade@400857ee]
+2025-05-01 19:05:33 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 19:05:33 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 19:05:33 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
